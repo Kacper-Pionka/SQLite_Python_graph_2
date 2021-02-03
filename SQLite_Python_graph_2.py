@@ -18,12 +18,12 @@ for row in cursor:
    z = row[1] + z
    y.append(z)
 
-xa = {
+'''xa = {
    'Id' : x,
    'Total' : y}
 print("Operation done successfully")
 myvar = pd.DataFrame(xa)
-print(myvar.to_string(index = False)) # Prints all data for graph
+print(myvar.to_string(index = False))''' # Prints all data for graph
 
 xpts = np.array(x)
 ypts = np.array(y)
